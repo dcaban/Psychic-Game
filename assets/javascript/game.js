@@ -1,4 +1,3 @@
-
 var comPick;
 var guessedLetterArray = []; // Creating an empty array for our user input.
 var userPick;
