@@ -84,7 +84,6 @@ document.onkeyup = function(event) {
     var keyPressed = event.keyCode || event.which;
     console.log(keyPressed);
     if (keyPressed < 65 || keyPressed  > 90) {
-        document.querySelector("#message").innerHTML = "Enter a valid letter";
         return ;
     }
 
